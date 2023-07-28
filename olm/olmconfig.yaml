@@ -13,7 +13,10 @@ description: |-
   **About Amazon CloudWatch**
 
 
-  {ADD YOUR DESCRIPTION HERE}
+  Amazon CloudWatch monitors your Amazon Web Services (AWS) resources and the applications you run on AWS in real time. You can use CloudWatch to collect and track metrics, which are variables you can measure for your resources and applications.
+  
+  
+  The CloudWatch home page automatically displays metrics about every AWS service you use. You can additionally create custom dashboards to display metrics about your custom applications, and display custom collections of metrics that you choose.
 
 
   **About the AWS Controllers for Kubernetes**
@@ -28,13 +31,11 @@ description: |-
 
   Please follow the following link: [Red Hat OpenShift](https://aws-controllers-k8s.github.io/community/docs/user-docs/openshift/)
 samples:
-- kind: ExampleCustomKind
-  spec: '{}'
-- kind: SecondExampleCustomKind
+- kind: MetricAlarm
   spec: '{}'
 maintainers:
 - name: "cloudwatch maintainer team"
   email: "ack-maintainers@amazon.com"
 links:
 - name: Amazon CloudWatch Developer Resources
-  url: https://aws.amazon.com/CloudWatch/developer-resources/
+  url: https://aws.amazon.com/cloudwatch/developer-resources/
